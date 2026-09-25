@@ -1,0 +1,16 @@
+{
+  "name": "bot-panel-host",
+  "version": "1.0.0",
+  "description": "স্বতন্ত্র Bot Panel — official-messenger-bot.zip আপলোড করে সেটাকে সাবপ্রসেস হিসেবে চালায়, কন্ট্রোল করে",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "adm-zip": "^0.5.12",
+    "fs-extra": "^11.2.0",
+    "dotenv": "^16.4.5"
+  }
+}
